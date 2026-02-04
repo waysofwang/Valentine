@@ -94,7 +94,10 @@ body {
   font-size: 3.2rem;
   text-align: center;
 }
-
+.result-container h3 {
+  font-size: 3.2rem;
+  text-align: center;
+}
 /* heart loader */
 .cssload-main {
   display: none;
@@ -416,3 +419,4 @@ body {
     border-color: rgb(228, 228, 228);
   }
 }
+
