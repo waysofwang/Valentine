@@ -39,6 +39,7 @@ body {
 .question {
   font-size: 3.5rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .button-container {
   display: flex;
@@ -428,6 +429,7 @@ body {
     border-color: rgb(228, 228, 228);
   }
 }
+
 
 
 
