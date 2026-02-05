@@ -4,19 +4,6 @@ const gifResult = document.querySelector(".gif-result");
 const heartLoader = document.querySelector(".cssload-main");
 const yesBtn = document.querySelector(".js-yes-btn");
 const noBtn = document.querySelector(".js-no-btn");
-const envelope = document.getElementById("envelope-container");
-
-// Click Envelope
-
-envelope.addEventListener("click", () => {
-    envelope.style.display = "none";
-    letter.style.display = "flex";
-
-    setTimeout( () => {
-        document.querySelector(".letter-window").classList.add("open");
-    },50);
-});
-
 
 // /change the postion of no button
 noBtn.addEventListener("mouseover", () => {
@@ -38,5 +25,4 @@ yesBtn.addEventListener("click", () => {
     resultContainer.style.display = "inherit";
     gifResult.play();
   }, 3000);
-
 });
