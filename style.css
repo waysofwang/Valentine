@@ -87,8 +87,12 @@ body {
   transition: 0.2s;
 }
 .gif-result {
+   width: 100%;
+  max-width: 300px;
   border-radius: 10px;
-  margin-bottom: 3rem;
+  display: block;
+  margin: 0 auto 3rem auto;
+  pointer-events: none;
 }
 .result-container h2 {
   font-size: 3.2rem;
@@ -424,6 +428,7 @@ body {
     border-color: rgb(228, 228, 228);
   }
 }
+
 
 
 
