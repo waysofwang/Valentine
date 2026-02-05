@@ -36,9 +36,8 @@ body {
   margin: 0 auto 3rem auto;
   pointer-events: none;
 }
-.question {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
+.question-container h2 {
+  font-size: 3.2rem;
   text-align: center;
 }
 .button-container {
@@ -429,6 +428,7 @@ body {
     border-color: rgb(228, 228, 228);
   }
 }
+
 
 
 
